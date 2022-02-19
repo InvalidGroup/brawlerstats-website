@@ -1,0 +1,9 @@
+.danger {
+    color: grey;
+    border-left: 6px solid #f44336;
+  }
+
+.note {
+    color: grey;
+    border-left: 6px solid #2600ff;
+}
