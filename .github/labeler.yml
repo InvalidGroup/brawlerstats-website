@@ -3,7 +3,7 @@ root:
 
 # Web labels
 .pages/commands.html:
-- '.pages/commands.html/
+- '.pages/commands.html/'
 
 .pages/faq.html:
 - '.pages/faq.html'
@@ -17,6 +17,9 @@ chore/index.html:
 # Github Labels
 .github/workflows:
 - '.github/workflows'
+
+.github/ISSUE_TEMPLATE:
+- '.github/ISSUE_TEMPLATE'
 
 README.md:
 - 'README.md' 
