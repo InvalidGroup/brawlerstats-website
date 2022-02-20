@@ -1,2 +1,0 @@
-# Subpages
-The subpages dir.
