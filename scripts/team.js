@@ -2,7 +2,7 @@
 const boxOwners = document.getElementById("owners_list");
 const boxStaff = document.getElementById("staff_list");
 
-const API = "https://disweb.glitch.me/v1/user/";
+const API = "https://disweb.glitch.me/v1/user";
 
 const owners = [
     {
@@ -10,21 +10,15 @@ const owners = [
         "post": "Developer & Owner",
         "GHURL": "https://github.com/invalidlenni",
         "TURL": "https://twitter.com/invalidlenni"
-    },
-    {
-        "id": "601336963424845832",
-        "post": "Developer & Owner",
-        "GHURL": "https://github.com/benzyYT",
-        "TURL": "https://twitter.com/benzyyoutube"
-    },
+    }
 ]
 
 const staff = [
     {
-        "id": "590423866434650113",
-        "post": "Trial Staff",
-        "GHURL": "https://github.com/2Lost4Github",
-        "TURL": "https://twitter.com/2Lost4This1"
+        "id": "814233207515643974",
+        "post": "Staff",
+        "GHURL": "https://github.com/InvalidLenni",
+        "TURL": "https://twitter.com/InvalidLenni"
     }
 ]
 

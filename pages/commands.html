@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/labels.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../assets/favicon.png">
+    <meta content="BrawlerStats - Imagine a bot for showing brawl stars stats in discord" property="og:title" />
+    <meta content="This is the official site for the brawlerstats discord bot!" property="og:description" />
+    <meta content="https://brawlerstats.github.io/" property="og:url" />
+    <meta content="../assets/favicon.png" property="og:image" />
+    <title>BrawlerStats</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="https://bit.ly/brawlerstats">
+                <img src="../assets/bot.jpg" alt="" width="50" height="50" class="rounded-circle"> &nbsp;
+                <span>BrawlerStats</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#/">Commands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">Staff</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Links
+                        </a>
+                        <ul class="dropdown-menu bgn" aria-labelledby="linksdrop">
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://bit.ly/brawlerstats" target="_blank">Invite
+                                    Bot</a>
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://bit.ly/brawlerstats_support" target="_blank">Support
+                                    Server</a></li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="./faq.html">FAQ</a></li>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold"
+                                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Cooming soon</a></li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="">View
+                                    Documentation</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex ml-auto" id="headerlogin">
+                    <li class="nav-item" style="list-style: none;">
+                        <a class="nav-link btn btn-outline-secondary login" href="https://bit.ly/brawlerstats">Cooming soon</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="jumbotron text-center bg-transparent">
+        <h1 class="commandstitle">Commands</h1>
+        <p class="lead commandssub">View the commands for Brawler Stats.</p>
+        <p class="lead commandssub">This page is not completed, so not all commands are be listed here.</p>
+
+        <hr>
+        <input id="myInput" type="text" class="searchbox" placeholder="Search">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="border"></div>
+        <br>
+        <br>
+        <br>
+        <div id="myCmd">
+            <br>
+            <button type="button" class="collapsible">help<span> - Just a help command.</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Category:</h4>
+                <p style="color: aqua;">Info</p>
+                <h4 style="color: #cccccc;">Description:</h4>
+                <p>Send the help command into the channel.</p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links, Attach Files</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">botinfo<span> - Just a botinfo command for showing bot informations.</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Category:</h4>
+                <p style="color: aqua;">Info</p>
+                <h4 style="color: #cccccc;">Description:</h4>
+                <p>Just a botinfo command for showing bot informations.</p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">botstats<span> - Send the botstats link into the channel.</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Category:</h4>
+                <p style="color: aqua;">Info</p>
+                <h4 style="color: #cccccc;">Description:</h4>
+                <p>Just a botstats command for showing bot staticstics.</p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">profile<span> - Showing the brawl stars player stats with the /player command.</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Category:</h4>
+                <p style="color: rgb(242, 44, 232);">Brawl Stars</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>/profile <Tag></p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links</p>
+                <div class="note">
+                    <p><strong>NOTE:</strong>Please enter the tag code without the #!</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">club<span> - Show brawl stars club informations with the /club command.</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Category:</h4>
+                <p style="color: rgb(242, 44, 232);">Brawl Stars</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>/club <Tag></p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links</p>
+                <div class="note">
+                    <p><strong>NOTE:</strong>Please enter the tag code without the #!</p>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    </div>
+
+    <footer class="mastfoot mb-auto">
+            <div class="container-fluid mb-auto">
+                <div class="row d-flex justify-content-center">
+                    <div class="">
+                        <p style="font-size: 19px; padding: 0px; margin: 0px;"><a href="https://bit.ly/brawlerstats"
+                                style="text-decoration: none; color: white;">Made with 💖</a></br>BrawlerStats ©
+                            2021 - 2022. All
+                            rights reserved.</br>[<a href="https://invalidlenni.gibook.io/brawlerstats/legal/privacy-policy/"><b>Privacy Policy</b></a>]</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/main.js"></script>
+</body>
+
+</html>
