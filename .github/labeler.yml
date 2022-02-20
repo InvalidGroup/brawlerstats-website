@@ -18,5 +18,8 @@ chore/index.html:
 .github/workflows:
 - '.github/workflows'
 
+.github/ISSUE_TEMPLATE:
+- '.github/ISSUE_TEMPLATE'
+
 README.md:
 - 'README.md' 
