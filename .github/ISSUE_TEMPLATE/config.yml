@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Website
+    url: https://brawlerstats.github.io/
+    about: The website.
+  - name: Discord Support Server
+    url: https://bit.ly/brawlerstats_support
+    about: Please ask questions there about the discord bot.
+  - name: Discord Bot
+    url: https://bit.ly/brawlerstats
+    about: Imagine a bot for showing brawl stars stats in discord.
