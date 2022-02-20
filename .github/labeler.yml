@@ -1,0 +1,23 @@
+root:
+- '*'
+
+# Web labels
+.pages/commands.html:
+- '.pages/commands.html/
+
+.pages/faq.html:
+- '.pages/faq.html'
+
+.pages/team.html:
+- '.pages/team.html'
+
+chore/index.html:
+- 'index.html'
+
+
+# Github Labels
+.github/workflows:
+- '.github/workflows'
+
+README.md:
+- 'README.md' 
