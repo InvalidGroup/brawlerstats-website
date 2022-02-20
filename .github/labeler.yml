@@ -8,9 +8,6 @@ root:
 .pages/faq.html:
 - '.pages/faq.html'
 
-.pages/team.html:
-- '.pages/team.html'
-
 chore/index.html:
 - 'index.html'
 
