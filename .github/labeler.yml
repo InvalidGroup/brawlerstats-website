@@ -3,7 +3,7 @@ root:
 
 # Web labels
 .pages/commands.html:
-- '.pages/commands.html/
+- '.pages/commands.html/'
 
 .pages/faq.html:
 - '.pages/faq.html'
