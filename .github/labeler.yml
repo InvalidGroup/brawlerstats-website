@@ -11,6 +11,8 @@ root:
 chore/index.html:
 - 'index.html'
 
+.pages/team.html:
+- '.pages/team.html'
 
 # Github Labels
 .github/workflows:
